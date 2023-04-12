@@ -5,7 +5,9 @@ import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get
 
 @Controller
-class Hello {
-    @Get("/hello")
-    fun hello(): HttpResponse<String> = HttpResponse.ok("Hello! Benjamin")
+class Demo {
+    @Get("/demo")
+    fun demo(): HttpResponse<String> = HttpResponse.ok("This is a demo!")
 }
+
+
